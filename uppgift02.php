@@ -10,7 +10,7 @@ define("cars", [
 "Alfa romeo"
 ]);
 
-echo cars[rand(0,5)] "is a good car.";
+echo cars[rand(0,5)], " is a good car.";
 
 
 
