@@ -1,14 +1,11 @@
 <?php
-header ("content-type: text/html; charset=utf-8");
-$t = date("H");
+header("content-type: text/html; charset=utf-8");
+function add_five(&$value) {
+  $value += 1067532;
+}
 
-if ($t < "9" ){
-    echo "Good morgon!";
-}
-else{
-    if ($t < "12" ){echo "good förmiddag!";}
-}
-else{
-if ($t < "19" ){echo "Good eftermiddag!";}
-}
-   else {echo "Good kväll!";}
+$num = 2975;
+add_five($num);
+echo $num;
+
+
