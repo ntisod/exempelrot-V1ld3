@@ -1,8 +1,8 @@
 <?php
 
 $servername = "localhost";
-$dbusername = "visl_PhpUser";
+$dbusername = "PhpUser";
 $dbpassword = "i[GVPp5nh_xy.Iz@netmonk";
-$dbname = "visl_wsptestex";
+$dbname = "wsptestex";
 
 //ENdOIXXfKO-Vot_N
