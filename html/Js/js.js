@@ -6,3 +6,4 @@ function hideTopNav() {
       x.className = "topnav";
     }
   }
+  alert("hej");
